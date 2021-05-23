@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* Samuel Mereau */
+#heading-text {
+  margin-top: 100px;
+}
+.page-heading {
+  height: 275px;
+}
+.cake-store-gallery {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.cake-store-gallery div {
+  background-color: #d3d3d37d;
+  padding: 10px;
+  margin: 30px 15px;
+  border-radius: 10px;
+  box-shadow: 0 11px 20px 0px rgba(72, 72, 72, 0.35);
+  transition: box-shadow 0.3s, margin-top 0.3s;
+}
+.cake-store-gallery div:hover {
+  box-shadow: 2px 11px 20px 9px rgba(72, 72, 72, 0.25);
+  margin-top: 15px;
+}
+.cake-store-gallery div p {
+  font-size: 24px;
+}
+.cake-image {
+  border-radius: 5px;
+}

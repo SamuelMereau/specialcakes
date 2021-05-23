@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* Samuel Mereau */
+.form-inputs {
+	width: 50%;
+	height: auto;
+	display: table;
+}
+.form-inputs div input, #form-feedback textarea {
+	width: 300px;
+	display: table-cell;
+}
+.form-inputs div label {
+	width: auto;
+	display: table-cell;
+	padding-right: 10px;
+	width: 100px;
+	text-align: left;
+}
+.form-inputs div {
+	display: table-row;
+	padding-bottom: 10px;
+}
+.form-inputs div input {
+	padding-top: 10px;
+	font-size: 18px;
+	border: none;
+	border-bottom: 2px solid lightgrey;
+	background-color: #e4e4e44a;
+}
+#form-feedback textarea {
+	padding-bottom: 50px !important;
+	min-width: 300px;
+	max-width: 300px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	border: none;
+	border-bottom: 2px solid lightgrey;
+	background-color: #e4e4e44a;
+}
+#form-feedback textarea:focus, .form-inputs div input {
+	outline: none;
+}
+#form-feedback * {
+	vertical-align: top;
+}
+#send {
+	padding: 10px 80px;
+	margin-top: 30px;
+	border: none;
+	color: white;
+	background-color: #e94d40;
+	border-radius: 5px;
+}
+#send:hover {
+	background-color: #d4463a;
+}
+@media only screen and (max-width: 650px){
+	.form-inputs > * {
+		display: block !important;
+	}
+	.form-inputs {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.form-inputs div label {
+		padding-bottom: 10px;
+	}
+	#send {
+		width: 100%;
+		padding: 20px 30px;
+	}
+}
