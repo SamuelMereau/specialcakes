@@ -31,3 +31,7 @@
 .cake-image {
   border-radius: 5px;
 }
+.desc {
+  font-size: 12px !important;
+  font-style: italic;
+}
